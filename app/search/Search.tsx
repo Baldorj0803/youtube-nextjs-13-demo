@@ -21,7 +21,7 @@ function Search({}: Props) {
         type="text"
         value={search}
         placeholder="Enter the Search term"
-        onChange={(e) => setSearch(e.target.value)}
+        onChange={(e) => setSearch("hello")}
       />
       <button
         type="submit"
